@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Animated css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/animated-style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+
     <!-- Link Icon -->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 
@@ -251,8 +260,14 @@
         <div
           class="hero-content d-flex flex-column align-items-center text-white text-center"
         >
-          <h1>Find Your Dream Home</h1>
-
+          <h1 class="cd-headline clip">
+            <span>EliteHomes</span>
+            <span class="cd-words-wrapper">
+              <b class="is-visible">Find Your Dream Home</b>
+              <b>Love Where You Live</b>
+              <b>Make It Home</b>
+            </span>
+          </h1>
           <p>
             Discover exceptional properties in prime locations. From modern
             condos to luxury estates, we help you find the perfect place to call
@@ -680,7 +695,7 @@
             tabindex="0"
           >
             <div class="row g-4">
-              <div class="col-lg-6">
+              <div class="col-lg-6 animate__animated animate__backInLeft">
                 <div class="services-heading mt-5">
                   <h1>Home Buying Made Simple</h1>
                   <p>
@@ -742,7 +757,7 @@
                   <img
                     src="./images/services1.png"
                     alt="Family"
-                    class="shadow-sm"
+                    class="shadow-sm animate__animated animate__backInRight"
                   />
                   <div
                     class="services-badge left-badge d-flex flex-column shadow-sm"
@@ -763,7 +778,7 @@
             tabindex="0"
           >
             <div class="row g-4">
-              <div class="col-lg-6">
+              <div class="col-lg-6 animate__animated animate__backInLeft">
                 <div class="services-heading mt-5">
                   <h1>Maximize Your Home's Value</h1>
                   <p>
@@ -825,7 +840,7 @@
                   <img
                     src="./images/services2.png"
                     alt="people"
-                    class="shadow-sm"
+                    class="shadow-sm animate__animated animate__backInRight"
                   />
                   <div
                     class="services-badge right-badge d-flex flex-column shadow-sm"
@@ -846,7 +861,7 @@
             tabindex="0"
           >
             <div class="row g-4">
-              <div class="col-lg-6">
+              <div class="col-lg-6 animate__animated animate__backInLeft">
                 <div class="services-heading mt-5">
                   <h1>Premium Rental Properties</h1>
                   <p>
@@ -907,7 +922,7 @@
                   <img
                     src="./images/services3.png"
                     alt="Home"
-                    class="shadow-sm"
+                    class="shadow-sm animate__animated animate__backInRight"
                   />
                   <div
                     class="services-badge left-badge d-flex flex-column shadow-sm"
@@ -928,7 +943,7 @@
             tabindex="0"
           >
             <div class="row g-4">
-              <div class="col-lg-6">
+              <div class="col-lg-6 animate__animated animate__backInLeft">
                 <div class="services-heading mt-5">
                   <h1>Real Estate Investment</h1>
                   <p>
@@ -990,7 +1005,7 @@
                   <img
                     src="./images/services4.png"
                     alt="data analysis"
-                    class="shadow-sm"
+                    class="shadow-sm animate__animated animate__backInRight"
                   />
                   <div
                     class="services-badge right-badge d-flex flex-column shadow-sm"
@@ -1011,7 +1026,7 @@
             tabindex="0"
           >
             <div class="row g-4">
-              <div class="col-lg-6">
+              <div class="col-lg-6 animate__animated animate__backInLeft">
                 <div class="services-heading mt-5">
                   <h1>Commercial Real Estate</h1>
                   <p>
@@ -1073,7 +1088,7 @@
                   <img
                     src="./images/services5.png"
                     alt="building"
-                    class="shadow-sm"
+                    class="shadow-sm animate__animated animate__backInRight"
                   />
                   <div
                     class="services-badge left-badge d-flex flex-column shadow-sm"
@@ -1853,7 +1868,8 @@
       </div>
     </footer>
     <!-- End Footer -->
-
+    <script src="./js/jquery-2.1.1.js"></script>
+    <script src="./js/main.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
